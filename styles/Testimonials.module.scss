@@ -1,0 +1,38 @@
+.testimonyContainer{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background-color: #2a2b42;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  .testimonyImage{
+    width: 30%;
+    height: auto;
+  }
+
+  .testimonyTextContainer{
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    .testimonyName{
+      font-size: 1.3rem;
+    }
+    .testimonyRank{
+      font-size: 1.3rem;
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+    .testimonyDescription{
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+
+  }
+}
