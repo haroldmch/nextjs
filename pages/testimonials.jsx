@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Testimony from '../components/Testimony'
 
-export default function testimonials() {
+export default function Testimonials() {
 
   const persons = [
     {
@@ -33,13 +33,12 @@ export default function testimonials() {
 
   return(
     <>
-    
       <Head>
         <title>Testimonials</title>
       </Head>
 
       <h1>Testimonials</h1>
-      <h3><Link href="/">Back</Link></h3>
+      <h4><Link href="/">Back</Link></h4>
 
       <div className='testimonials_container'>
 
@@ -54,7 +53,7 @@ export default function testimonials() {
               />
           ))
         }
-        
+      
       </div>
     </>
   )
