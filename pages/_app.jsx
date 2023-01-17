@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 
       <footer className="footer">
         <hr />
-        haroldmch 2022
+        haroldmch { new Date().getFullYear() }
       </footer>
     </>
   )
